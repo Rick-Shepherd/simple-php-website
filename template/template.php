@@ -21,6 +21,10 @@
         <h2><?php page_title(); ?></h2>
         <?php page_content(); ?>
     </article>
+	
+	<div>
+		Additional work done here...
+	</div>
 
     <footer>
         <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
